@@ -3,20 +3,13 @@
 
 	export let segment;
 </script>
-
-<style>
-	main {
-		position: relative;
-		max-width: 56em;
-		background-color: white;
-		padding: 2em;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
-</style>
-
+ 
 <Nav {segment}/>
 
 <main>
+	<script>
+		import Grid from "svelte-grid-responsive";
+	  </script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/superhero/bootstrap.min.css" integrity="sha384-rvwYMW9Z/bbxZfgxHQEKx6D91KwffWAG+XnsoYNCGWi/qL1P9dIVYm1HBiHFqQEt" crossorigin="anonymous">
 	<slot></slot>
-</main>
+</main> 		
